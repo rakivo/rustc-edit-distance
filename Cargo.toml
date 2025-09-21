@@ -3,9 +3,9 @@ name = "rustc-edit-distance"
 version = "0.1.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
-# maybe MSRV is even smaller than that, because when I was checking it with
+# The actual MSRV might be lower, but when I tried
 # `cargo msrv find --ignore-lockfile --no-default-features`
-# it froze for 20 minutes on 1.64.0 so I decided whatever bru
+# it hung for ~20 minutes on 1.64.0. I gave up and picked that as "good enough."
 rust-version = "1.64.0"
 
 [dependencies]
