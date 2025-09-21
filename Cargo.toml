@@ -1,0 +1,14 @@
+[package]
+name = "rustc-edit-distance"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+# maybe MSRV is even smaller than that, because when I was checking it with
+# `cargo msrv find --ignore-lockfile --no-default-features`
+# it froze for 20 minutes on 1.64.0 so I decided whatever bru
+rust-version = "1.64.0"
+
+[dependencies]
+
+[dev-dependencies]
+quickcheck = "1.0"

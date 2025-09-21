@@ -1,0 +1,14 @@
+Copyright (c) 2025 Mark Tyrkba <marktyrkba456@gmail.com>
+
+This project includes code derived from the Rust compiler ("rustc"),
+specifically from:
+  https://github.com/rust-lang/rust/blob/3b022d8ceea570db9730be34d964f0cc663a567f/compiler/rustc_span/src/edit_distance.rs
+which is dual-licensed under either Apache License, Version 2.0 or
+the MIT license, at your option.
+
+Some tests in this project are adapted from github.com/febeling/edit-distance, which is licensed under the Apache License, Version 2.0.
+
+Accordingly, this project is licensed under either of
+  * Apache License, Version 2.0
+  * MIT license
+at your option.
