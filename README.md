@@ -9,6 +9,7 @@ Add this to your `Cargo.toml`:
 ```toml
 [dependencies]
 rustc-edit-distance = "0.1.0"
+```
 
 ## License
 
