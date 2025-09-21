@@ -57,11 +57,7 @@ fn at_least_size_difference_property() {
     fn at_least_size_difference(a: String, b: String) -> bool {
         let size_a = a.chars().count();
         let size_b = b.chars().count();
-        let diff = if size_a > size_b {
-            size_a - size_b
-        } else {
-            size_b - size_a
-        };
+        let diff = size_a.abs_diff(size_b);
         edit_distance_unchecked(&a, &b) >= diff
     }
 
