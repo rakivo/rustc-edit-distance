@@ -3,10 +3,20 @@ name = "rustc-edit-distance"
 version = "0.1.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
+
 # The actual MSRV might be lower, but when I tried
 # `cargo msrv find --ignore-lockfile --no-default-features`
 # it hung for ~20 minutes on 1.64.0. I gave up and picked that as "good enough."
 rust-version = "1.64.0"
+
+readme = "README.md"
+keywords = ["edit-distance", "levenshtein", "string", "diff"]
+categories = ["algorithms", "text-processing"]
+authors = ["Mark Tyrkba <marktyrkba456@gmail.com>"]
+description = "An edit distance implementation derived from rustc, packaged for reuse."
+repository = "https://github.com/rakivo/rustc-edit-distance"
+exclude = [".github/*", "tests/*"]
+documentation = "https://docs.rs/rustc-edit-distance"
 
 [dependencies]
 
